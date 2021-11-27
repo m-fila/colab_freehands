@@ -1,2 +1,3 @@
-# colab_freehands
-Interactive free hand drawings in colab
+# Colab freehands
+
+Interactive free hand drawings in Colab
