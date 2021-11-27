@@ -108,7 +108,7 @@ class Canvas:
         Returns:
             [type]: [description]
         """
-        image = self.__get(mode="arrays", size=size, margin=margin, weighted=weighted)
+        image = self.__get(mode=Mode.ARRAY, size=size, margin=margin, weighted=weighted)
         arr = np.array(image, dtype=dtype)
         if flat:
             return arr.reshape(-1)
